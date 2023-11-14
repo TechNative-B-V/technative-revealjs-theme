@@ -1,23 +1,23 @@
 {
-  "name": "pitc-revealjs-theme",
+  "name": "technative-revealjs-theme",
   "version": "1.0.0",
-  "description": "Revealjs theme based upon the Puzzle style guide",
+  "description": "Revealjs theme based upon the technative style guide",
   "scripts": {
     "start": "npm-run-all --parallel watch reveal-md",
-    "watch": "node-sass --watch theme/source/puzzle.scss theme/puzzle.css",
-    "build": "node-sass theme/source/puzzle.scss theme/puzzle.css && npm run static",
-    "reveal-md": "reveal-md demo.md --watch --theme theme/puzzle.css",
-    "static": "reveal-md demo.md --static --theme theme/puzzle.css && cp -r imgs _static/_assets"
+    "watch": "node-sass --watch theme/source/technative.scss theme/technative.css",
+    "build": "node-sass theme/source/technative.scss theme/technative.css && npm run static",
+    "reveal-md": "reveal-md demo.md --watch --theme theme/technative.css",
+    "static": "reveal-md demo.md --static --theme theme/technative.css && cp -r imgs _static/_assets"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/puzzle/pitc-revealjs-theme.git"
+    "url": "git+https://github.com/TechNative-B-V/technative-revealjs-theme.git"
   },
-  "author": "Lorenz Bischof",
+  "author": "Pim Snel, (Credits: Lorenz Bischof)",
   "bugs": {
-    "url": "https://github.com/puzzle/pitc-revealjs-theme/issues"
+    "url": "https://github.com/TechNative-B-V/technative-revealjs-theme/issues"
   },
-  "homepage": "https://github.com/puzzle/pitc-revealjs-theme#readme",
+  "homepage": "https://github.com/TechNative-B-V/technative-revealjs-theme#readme",
   "devDependencies": {
     "node-sass": "^9.0.0",
     "npm-run-all": "^4.1.5",

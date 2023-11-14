@@ -6,8 +6,8 @@ revealOptions:
 ---
 <!-- .slide: class="l-cover" -->
 
-# Präsentation
-# *Puzzle ITC*
+# Presentation
+# *TechNative B.V.*
 ## RevealJS Theme <!-- .element: class="r-stretch" -->
 
 John Doe
@@ -16,9 +16,10 @@ john@mail.com
 ```md
 <!-- .slide: class="l-cover" -->
 
-# Präsentation
-# *Puzzle ITC*
-### RevealJS Theme <!-- .element: class="r-stretch" -->
+# Presentation
+# *TechNative B.V.*
+## RevealJS Theme <!-- .element: class="r-stretch" -->
+
 John Doe
 john@mail.com
 ```
@@ -29,7 +30,7 @@ john@mail.com
 ## 18.02.2020
 # Agenda
 
-- Puzzle Theme
+- TechNative Theme
 - Nice to meet you
 - Unsere Firma
 - Unsere Principles
@@ -43,7 +44,7 @@ john@mail.com
 ## 18.02.2020
 # Agenda
 
-- Puzzle Theme
+- TechNative Theme
 - People
 - Titles
 - Images
@@ -53,18 +54,18 @@ john@mail.com
 ```
 
 ---
-# Puzzle Theme
+# TechNative Theme
 
-* Um das Corporate Design von Puzzle konsistent zu halten, verwenden wir für Präsentationen diese Folienvorlage.
+* Um das Corporate Design von TechNative konsistent zu halten, verwenden wir für Präsentationen diese Folienvorlage.
 * Dieses Template stellt eine praktische Übersicht dar und hilft dir beim Erstellen deiner Präsentation.
 * Wenn du nach [unten](#unten) gehst, siehst du bei jeder Folie wie sie aufgebaut wurde.
 * Du kannst die Folien per «copy and paste» in deine Präsentation integrieren.
 ----
 <!-- .slide: id="unten" -->
 ```md
-# Puzzle Theme
+# TechNative Theme
 
-* Um das Corporate Design von Puzzle konsistent zu halten, verwenden wir für Präsentationen diese Folienvorlage.
+* Um das Corporate Design von TechNative konsistent zu halten, verwenden wir für Präsentationen diese Folienvorlage.
 * Dieses Template stellt eine praktische Übersicht dar und hilft dir beim Erstellen deiner Präsentation.
 * Wenn du nach [unten](#unten) gehst, siehst du bei jeder Folie wie sie aufgebaut wurde.
 * Du kannst die Folien per «copy and paste» in deine Präsentation integrieren.
@@ -114,16 +115,16 @@ Falls du ein Bild aus deinem Repository benutzen willst, dann hänge `_assets/` 
 
 ## Unsere Firma
 
-# Wer ist Puzzle?
-# *Was tut* Puzzle?
+# Wer ist TechNative?
+# *Was tut* TechNative?
 ----
 ```md
 <!-- .slide: class="l-title" -->
 
 ## Unsere Firma
 
-# Wer ist Puzzle?
-# *Was tut* Puzzle?
+# Wer ist TechNative?
+# *Was tut* TechNative?
 ```
 ---
 <!-- .slide: class="l-title02" -->
@@ -284,13 +285,8 @@ Der Aufbau mit den `-` Zeichen ist wichtig!
 <!-- .slide: class="l-thanks" -->
 
 # Merci
-Mehr Informationen zu Puzzle:
-www.puzzle.ch
+Meer informatie over TechNative:
+www.technative.eu
 
-<br><br><br>
 
-- @puzzleitc
-- @puzzleitc
-- @puzzle_itc
-- @puzzleitc
-- @puzzle
+
