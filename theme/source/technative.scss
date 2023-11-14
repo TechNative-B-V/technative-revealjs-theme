@@ -281,7 +281,7 @@ $overlayElementFgColor: 0, 0, 0;
 
 // THANKS
 .reveal .slide-background.l-thanks {
-  background: url('data:image/svg+xml;base64,#{$logoWhite}') top right;
+  background: url("data:image/svg+xml;base64,#{$logoWhite}") top 50px right 50px;
   background-size: auto 100px;
   background-color: $darkBackgroundColor;
   background-repeat: no-repeat;
