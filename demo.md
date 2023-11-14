@@ -7,7 +7,9 @@ revealOptions:
 <!-- .slide: class="l-cover" -->
 
 # Presentation
+
 # *TechNative B.V.*
+
 ## RevealJS Theme <!-- .element: class="r-stretch" -->
 
 John Doe
@@ -285,7 +287,7 @@ Der Aufbau mit den `-` Zeichen ist wichtig!
 <!-- .slide: class="l-thanks" -->
 
 # Merci
-Meer informatie over TechNative:
+More information about TechNative:
 www.technative.eu
 
 

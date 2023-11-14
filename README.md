@@ -1,11 +1,11 @@
-# Puzzle ITC Revealjs Theme
+# TechNative Revealjs Theme
 
-[![Puzzle ITC Revealjs Theme](imgs/demo-cover.png)](https://puzzle.github.io/pitc-revealjs-theme/demo)
+[![TechNative Revealjs Theme](imgs/demo-cover.png)](https://technative-b-v.github.io/technative-revealjs-theme/demo)
 
-Revealjs Dokumentation: https://github.com/hakimel/reveal.js
-
+Revealjs Docs: https://github.com/hakimel/reveal.js
 
 ## Requirements
+
 NPM must be installed. Instructions for Ubuntu are [here](https://github.com/nodesource/distributions#installation-instructions).
 
 
@@ -32,7 +32,7 @@ For offline presentations and if you want to be very sure nothing changes, use `
 ## Usage with Docker
 
 ```
-docker run --rm -p 1948:1948 -v $(pwd):/slides webpronl/reveal-md:latest --watch --theme https://puzzle.github.io/pitc-revealjs-theme/2/puzzle.css /slides
+docker run --rm -p 1948:1948 -v $(pwd):/slides webpronl/reveal-md:latest --watch --theme https://technative-b-v.github.io/technative-revealjs-theme/2/technative.css /slides
 ```
 
 ### Print
@@ -47,11 +47,11 @@ docker run --rm -t --net=host -v $(pwd):/slides astefanutti/decktape http://loca
 1. Install reveal-md: `sudo npm install -g reveal-md`
 2. Open the presentation:
 
-    ```reveal-md demo.md --watch --theme https://puzzle.github.io/pitc-revealjs-theme/2/puzzle.css```
+    ```reveal-md demo.md --watch --theme https://technative.github.io/pitc-revealjs-theme/2/technative.css```
 
 Optional: Add an alias in your `.bashrc`:
 ```
-alias reveal-md='reveal-md --watch --theme https://puzzle.github.io/pitc-revealjs-theme/2/puzzle.css'
+alias reveal-md='reveal-md --watch --theme https://technative.github.io/pitc-revealjs-theme/2/technative.css'
 ```
 
 
@@ -66,11 +66,11 @@ The following versions are available:
 
 The major version is automatically updated, when there are compatible new features. The minor version is only updated when there are new patches.
 
-See the [Github Tags](https://github.com/puzzle/pitc-revealjs-theme/tags) for available releases.
+See the [Github Tags](https://github.com/technative/pitc-revealjs-theme/tags) for available releases.
 
 You can then use the version within the URL:
 ```
-https://puzzle.github.io/pitc-revealjs-theme/${VERSION}/puzzle.css"
+https://technative.github.io/pitc-revealjs-theme/${VERSION}/technative.css"
 ```
 
 Use the version `1.0.2` for the old theme.
@@ -79,7 +79,7 @@ The releases use Semantic Versioning. More information: http://semver.org/
 
 
 ## Layouts
-See https://puzzle.github.io/pitc-revealjs-theme/demo for a demo. Every slide has a vertical slide below, that describes its usage.
+See https://technative.github.io/pitc-revealjs-theme/demo for a demo. Every slide has a vertical slide below, that describes its usage.
 
 
 ## Options
@@ -142,7 +142,7 @@ To override CSS you may add `--css custom.css` to the `reveal-md` command. This 
 ## Contributing
 1. Run `npm install`
 2. Run `npm run start`
-3. Edit `puzzle.scss` in `css/theme/source`
+3. Edit `technative.scss` in `css/theme/source`
 4. Reload browser
 
 To release a new version:
