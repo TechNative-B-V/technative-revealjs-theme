@@ -32,7 +32,7 @@ For offline presentations and if you want to be very sure nothing changes, use `
 ## Usage with Docker
 
 ```
-docker run --rm -p 1948:1948 -v $(pwd):/slides webpronl/reveal-md:latest --watch --theme https://technative-b-v.github.io/technative-revealjs-theme/2/technative.css /slides
+docker run --rm -p 1948:1948 -v $(pwd):/slides webpronl/reveal-md:latest --watch --theme https://technative-b-v.github.io/technative-revealjs-theme/demo/_assets/theme/technative.css /slides
 ```
 
 ### Print
@@ -47,11 +47,11 @@ docker run --rm -t --net=host -v $(pwd):/slides astefanutti/decktape http://loca
 1. Install reveal-md: `sudo npm install -g reveal-md`
 2. Open the presentation:
 
-    ```reveal-md demo.md --watch --theme https://technative.github.io/pitc-revealjs-theme/2/technative.css```
+    ```reveal-md demo.md --watch --theme https://technative.github.io/technative-revealjs-theme/2/technative.css```
 
 Optional: Add an alias in your `.bashrc`:
 ```
-alias reveal-md='reveal-md --watch --theme https://technative.github.io/pitc-revealjs-theme/2/technative.css'
+alias reveal-md='reveal-md --watch --theme https://technative.github.io/technative-revealjs-theme/2/technative.css'
 ```
 
 
@@ -66,11 +66,11 @@ The following versions are available:
 
 The major version is automatically updated, when there are compatible new features. The minor version is only updated when there are new patches.
 
-See the [Github Tags](https://github.com/technative/pitc-revealjs-theme/tags) for available releases.
+See the [Github Tags](https://github.com/technative/technative-revealjs-theme/tags) for available releases.
 
 You can then use the version within the URL:
 ```
-https://technative.github.io/pitc-revealjs-theme/${VERSION}/technative.css"
+https://technative.github.io/technative-revealjs-theme/${VERSION}/technative.css"
 ```
 
 Use the version `1.0.2` for the old theme.
@@ -79,7 +79,7 @@ The releases use Semantic Versioning. More information: http://semver.org/
 
 
 ## Layouts
-See https://technative.github.io/pitc-revealjs-theme/demo for a demo. Every slide has a vertical slide below, that describes its usage.
+See https://technative.github.io/technative-revealjs-theme/demo for a demo. Every slide has a vertical slide below, that describes its usage.
 
 
 ## Options
